@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.5.1
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Feb 26, 2017 at 10:28 AM
+- Server version: 10.1.19-MariaDB
+- PHP Version: 5.5.38
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="books_script" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="books">
+                CREATE TABLE `books` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `title` varchar(50) NOT NULL,
+                  `author` varchar(50) NOT NULL,
+                  `active` int(2) NOT NULL DEFAULT '0',
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'books_script'
+    -->
+    <database name="books_script">
+        <!-- Table books -->
+        <table name="books">
+            <column name="id">2</column>
+            <column name="title">Css</column>
+            <column name="author">Css_Author</column>
+            <column name="active">0</column>
+        </table>
+        <table name="books">
+            <column name="id">3</column>
+            <column name="title">JavaScript</column>
+            <column name="author">JavaScript_author</column>
+            <column name="active">1</column>
+        </table>
+        <table name="books">
+            <column name="id">4</column>
+            <column name="title">html</column>
+            <column name="author">html</column>
+            <column name="active">0</column>
+        </table>
+        <table name="books">
+            <column name="id">6</column>
+            <column name="title">C#</column>
+            <column name="author">C#</column>
+            <column name="active">1</column>
+        </table>
+        <table name="books">
+            <column name="id">7</column>
+            <column name="title">Html5</column>
+            <column name="author">Author 2</column>
+            <column name="active">0</column>
+        </table>
+        <table name="books">
+            <column name="id">11</column>
+            <column name="title">jquery</column>
+            <column name="author">author 3</column>
+            <column name="active">0</column>
+        </table>
+        <table name="books">
+            <column name="id">12</column>
+            <column name="title">Css3</column>
+            <column name="author">Css3_author</column>
+            <column name="active">1</column>
+        </table>
+    </database>
+</pma_xml_export>

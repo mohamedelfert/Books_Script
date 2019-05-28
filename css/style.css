@@ -1,0 +1,30 @@
+#page{
+	margin-top: 50px;
+	margin-left: 100px;
+}
+.title{
+	font-family: cursive;
+	color: #268;
+}
+.btn{
+	margin-top: 10px;
+}
+.table{
+	margin-top: 15px;
+}
+#htr{
+	font-family: courier;
+	font-size: 20px;
+	font-weight: bold;
+}
+footer{
+	background-color:#191E22;
+    color:#4B5557;
+    text-align: center;
+    margin-top: 70px;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size:20px;
+    font-weight:bold;
+    text-transform:uppercase
+}
